@@ -1,2 +1,48 @@
-// クローン
+//不可視ファイルも含むファイル一覧表示
+ ls -al
+ 
+ 
+//クローン
  git clone (git URL)
+
+//リポジトリの状態を確認する
+ git status
+
+//コミット
+ git commit
+ 
+//コミット コメント
+ git commit -m (comment...)
+ 
+//githubに送る
+ git push
+ 
+//branchを作る
+ git checkout -b (ブランチ名)
+ 
+//branch移動
+ git checkout (ブランチ名)
+
+//branch切った変更をmasterと合わせる
+ git merge (ブランチ名)
+ 
+//コミットログ
+ git log
+  
+//vim 移動
+ i 上
+ j 左
+ k 右
+ m 下
+ 
+//vim 入力on
+ i
+
+//vim 入力off
+ esc
+ 
+//vim 保存して閉じる
+ :x
+ 
+//vim 保存しないで閉じる
+ :q!
